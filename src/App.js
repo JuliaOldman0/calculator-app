@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      {" "}
+      <h1>Calculator App</h1>
+      <footer>
+        This project is coded by{" "}
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://gleeful-cuchufli-b3c8bf.netlify.app/"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Learn React
+          Julia Oldman
+        </a>{" "}
+        and is{" "}
+        <a
+          href="https://github.com/JuliaOldman0/calculator-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-sourced on Github
         </a>
-      </header>
+      </footer>
     </div>
   );
 }
 
-export default App;
+
